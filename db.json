@@ -5,7 +5,7 @@
       "name": "Computer",
       "price": 4300,
       "quantity": "99999",
-      "selected": true,
+      "selected": false,
       "available": false
     },
     {
@@ -47,6 +47,14 @@
       "selected": true,
       "available": true,
       "id": 6
+    },
+    {
+      "name": "libelle",
+      "price": "4",
+      "quantity": "5",
+      "selected": false,
+      "available": true,
+      "id": 7
     }
   ]
 }

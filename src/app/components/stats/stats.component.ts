@@ -13,6 +13,7 @@ export class StatsComponent implements OnInit {
 
   ngOnInit(): void {
     this.eventDrivenService.sourceEventSubjectObservable.subscribe((actionEvent:ActionEvent)=>{
+      console.log(actionEvent);
       ++this.counter;
     })
   }
